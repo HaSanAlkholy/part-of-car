@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/vendor/all.min.css" />
+    <link rel="stylesheet" href="./css/vendor/linear.css" />
+    <link rel="stylesheet" href="./css/vendor/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/vendor/bootstrap-select.min.css" />
+    <link rel="stylesheet" href="./css/vendor/aos.css" />
+    <link rel="stylesheet" href="./css/vendor/swiper-bundle.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="shortcut icon" href="./images/favicon.png" />
+    <title>Part of car</title>
+  </head>
+
+  <body class="overflow">
+    <div class="pre-loader">
+      <div class="content">
+        <div class="lds-default">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+
+    <nav>
+      <div class="container">
+        <div class="nav-bottom">
+          <div class="nav-logo">
+            <a href="#"><img src="./images/logo.png" alt=".." /></a>
+          </div>
+          <div class="nava" id="nava">
+            <div class="nava-content">
+              <div class="nava-head">
+                <div class="top-setting nav-lang nav-icon">
+                  <span class="setting-anchor ico-btn">
+                    <img src="./images/icons/en.png" alt=".." />
+                    <span class="txt">English</span>
+                    <span class="lnr lnr-chevron-down"></span>
+                  </span>
+                  <ul class="top-dropDown">
+                    <li><a href="./index.html">العربية</a></li>
+                    <li><a href="./index-en.html">English</a></li>
+                  </ul>
+                </div>
+                <div class="nava-close" id="close-nava">
+                  <span class="lnr lnr-cross"></span>
+                </div>
+              </div>
+              <ul>
+                <li><a href="#"> Home</a></li>
+                <li><a href="#"> Offers</a></li>
+                <li class="top-setting sm-slide slide">
+                  <a class="setting-anchor drop">
+                    Spare parts <span class="lnr lnr-chevron-down down"></span>
+                  </a>
+                  <ul class="top-dropDown">
+                    <li><a href="#">Gaskets</a></li>
+                    <li><a href="#">Wear</a></li>
+                    <li class="top-setting in-menu slide sm-slide">
+                      <a class="setting-anchor drop">
+                        Oil Saihat
+                        <span class="lnr lnr-chevron-down down"></span
+                      ></a>
+                      <ul class="top-dropDown">
+                        <li> <a href="#"> Oil Cell Sabab </a> </li>
+                        <li> <a href="#"> Oil Cell Shackman </a> </li>
+                        <li> <a href="#"> Oil Cell Maupina </a> </li>
+                        <li> <a href="#"> Oil Cell Koblin </a> </li>
+                        <li> <a href="#"> Oil Cell Krone </a> </li>
+                        <li> <a href="#"> Oil Cell Karnak </a> </li>
+                        <li> <a href="#"> Oil Cell Cardan </a> </li>
+                        <li> <a href="#"> Oil Cell Cam </a> </li>
+                        <li> <a href="#"> Oil Seal Baggage </a> </li>
+                        <li> <a href="#"> Oil Cell Phones </a> </li>
+                        <li> <a href="#"> Oil Cell Lantern </a> </li>
+                        <li> <a href="#"> OilSeal canister Drexion </a> </li>
+                        <li> <a href="#"> Oil Cell Calf </a> </li>
+                        <li> <a href="#"> Oilsell Taksim </a> </li>
+                        <li> <a href="#"> Oil Cell Takeh </a> </li>
+                      </ul>
+                    </li>
+                    <li> <a href="#"> Motor </a> </li>
+                    <li> <a href="#"> cabins and traction machines </a> </li>
+                    <li> <a href="#"> Filters </a> </li>
+                    <li> <a href="#"> Gear </a> </li>
+                    <li> <a href="#"> larder </a> </li>
+                    <li> <a href="#"> belts </a> </li>
+                    <li> <a href="#"> Sensors </a> </li>
+                    <li> <a href="#"> Refrigeration and air conditioning </a> </li>
+                    <li> <a href="#"> Battery and Electricity </a> </li>
+                    <li> <a href="#"> ignition and fuel </a> </li>
+                    <li> <a href="#"> Brakes </a> </li>
+                    <li> <a href="#"> Hoses </a> </li>
+                  </ul>
+                </li>
+                <li> <a href="#"> Blog </a> </li>
+                <li> <a href="#"> Who we are </a> </li>
+                <li> <a href="#"> Contact us </a> </li>
+              </ul>
+            </div>
+          </div>
+          <div class="nav-icons nav-icons-sm flex-center">
+            <div class="nava-btn nav-icon" id="nava-icon">
+              <div class="ico-btn">
+                <span class="lnr lnr-menu"></span>
+              </div>
+            </div>
+            <div class="search-btn nav-icon" id="search-btn">
+              <div class="ico-btn">
+                <span class="lnr lnr-magnifier"></span>
+              </div>
+            </div>
+          </div>
+          <div class="nav-icons flex-center">
+            <div class="top-setting user nav-icon">
+              <span class="setting-anchor ico-btn">
+                <span class="lnr lnr-user"></span>
+              </span>
+              <ul class="top-dropDown">
+                <li><a href="./index.html">Sign in</a></li>
+                <li><a href="./index-en.html">Sign up</a></li>
+              </ul>
+            </div>
+            <div class="cart nav-icon">
+              <div class="ico-btn">
+                <span class="lnr lnr-cart"></span>
+              </div>
+            </div>
+            <div class="top-setting nav-lang nav-icon">
+              <span class="setting-anchor ico-btn">
+                <img src="./images/icons/en.png" alt=".." />
+                <span class="txt">English</span>
+                <span class="lnr lnr-chevron-down"></span>
+              </span>
+              <ul class="top-dropDown">
+                <li><a href="./index.html">العربية</a></li>
+                <li><a href="./index-en.html"> English</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="search-form" id="search-form">
+      <div class="close-search" id="close-search">
+        <span class="lnr lnr-cross"></span>
+      </div>
+      <div class="search">
+        <div class="search-content">
+          <form action="#">
+            <div class="input-form">
+              <input type="text" placeholder="Search..." />
+              <button class="search-btn flex-center">
+                <span class="lnr lnr-magnifier"></span>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <header>
+      <div class="container">
+        <div class="header-content">
+          <aside>
+            <h3>Select vehicle specifications</h3>
+            <label for="#">Vehicle brand</label>
+            <select class="selectpicker" name="type">
+              <option>Choose brand</option>
+             <option> Section 1 </option>
+               <option> Section 2 </option>
+            </select>
+            <label for="#">Car model</label>
+            <select class="selectpicker" name="type">
+              <option>Choose model</option>
+             <option> Section 1 </option>
+               <option> Section 2 </option>
+            </select>
+            <label for="#">Manufacturing year</label>
+            <select class="selectpicker" name="type">
+              <option>Choose the year</option>
+             <option> Section 1 </option>
+               <option> Section 2 </option>
+            </select>
+            <a href="#" class="search"
+              ><span class="lnr lnr-magnifier"></span> Search</a
+            >
+          </aside>
+          <div class="swiper-container slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="#"
+                  ><img src="./images/header/header.jpg" alt="slide1 banner"
+                /></a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#"
+                  ><img src="./images/header/header.jpg" alt="slide1 banner"
+                /></a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#"
+                  ><img src="./images/header/header.jpg" alt="slide1 banner"
+                /></a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#"
+                  ><img src="./images/header/header.jpg" alt="slide1 banner"
+                /></a>
+              </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="brands">
+      <div class="container">
+        <div class="brands-head s-head" data-aos="fade-left">
+          <h3>Classifications of spare parts</h3>
+        </div>
+        <div class="brands-content">
+          <div class="brands-swiper-container s-containe">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="brand">
+                  <a href="#">
+                    <div class="brand-img">
+                      <img src="./images/brands/1.png" alt=".." />
+                    </div>
+                    <h4>Motor</h4>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="brand">
+                  <a href="#">
+                    <div class="brand-img">
+                      <img src="./images/brands/2.png" alt=".." />
+                    </div>
+                    <h4>Drums</h4>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="brand">
+                  <a href="#">
+                    <div class="brand-img">
+                      <img src="./images/brands/3.png" alt=".." />
+                    </div>
+                    <h4>AX</h4>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="brand">
+                  <a href="#">
+                    <div class="brand-img">
+                      <img src="./images/brands/4.png" alt=".." />
+                    </div>
+                    <h4>Suspension system</h4>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="brand">
+                  <a href="#">
+                    <div class="brand-img">
+                      <img src="./images/brands/5.png" alt=".." />
+                    </div>
+                    <h4>Piston</h4>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="brand">
+                  <a href="#">
+                    <div class="brand-img">
+                      <img src="./images/brands/6.png" alt=".." />
+                    </div>
+                    <h4>Oil</h4>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="product-slider bg-white">
+      <div class="container">
+        <div class="product-head s-head" data-aos="fade-left">
+          <h3>Most viewed products</h3>
+        </div>
+        <div class="product-body" data-aos="zoom-in">
+          <div class="product-swiper-container s-container s-containe">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="product">
+                  <div class="product-img">
+                    <a href="#">
+                      <img src="./images/products/1.jpg" alt=".." />
+                      <div class="note start">Discount 8%</div>
+                      <div class="note end">Original</div>
+                    </a>
+                  </div>
+                  <div class="product-disc">
+                    <h5><a href="#">GENUINE Radiator Original</a></h5>
+                    <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star blank"></i>
+                    </div>
+                    <div class="price flex-center">
+                      <div class="now"><span>115</span> <span>S.R</span></div>
+                      <div class="price-sale">
+                        <span>125</span><span>S.R</span>
+                      </div>
+                    </div>
+                    <div class="product-btns">
+                      <div class="like">
+                        <a href="#" class="flex-center">
+                          <span class="lnr lnr-cart"></span>
+                          <span class="txt">Add to cart</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product">
+                  <div class="product-img">
+                    <a href="#">
+                      <img src="./images/products/2.jpg" alt=".." />
+                      <div class="note end">Original</div>
+                    </a>
+                  </div>
+                  <div class="product-disc">
+                    <h5><a href="#">HI-Q Korean front brake pads kit</a></h5>
+                    <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star blank"></i>
+                    </div>
+                    <div class="price flex-center">
+                      <div class="now"><span>115</span> <span>S.R</span></div>
+                    </div>
+                    <div class="product-btns">
+                      <div class="like">
+                        <a href="#" class="flex-center">
+                          <span class="lnr lnr-cart"></span>
+                          <span class="txt">Add to cart</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product out">
+                  <div class="product-img">
+                    <a href="#">
+                      <img src="./images/products/3.jpg" alt=".." />
+                      <div class="note start">Out of stock</div>
+                    </a>
+                  </div>
+                  <div class="product-disc">
+                    <h5><a href="#">VALEO Korean clutch kit</a></h5>
+                    <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star blank"></i>
+                    </div>
+                    <div class="price flex-center">
+                      <div class="now"><span>115</span> <span>S.R</span></div>
+                    </div>
+                    <div class="product-btns">
+                      <div class="like">
+                        <a href="#" class="flex-center">
+                          <span class="lnr lnr-cart"></span>
+                          <span class="txt">Add to cart</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product">
+                  <div class="product-img">
+                    <a href="#">
+                      <img src="./images/products/4.jpg" alt=".." />
+                      <div class="note end">commercial</div>
+                    </a>
+                  </div>
+                  <div class="product-disc">
+                    <h5><a href="#">KYB Japanese Back Auxiliary Set</a></h5>
+                    <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star blank"></i>
+                    </div>
+                    <div class="price flex-center">
+                      <div class="now"><span>115</span> <span>S.R</span></div>
+                    </div>
+                    <div class="product-btns">
+                      <div class="like">
+                        <a href="#" class="flex-center">
+                          <span class="lnr lnr-cart"></span>
+                          <span class="txt">Add to cart</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="product-slider">
+      <div class="container">
+        <div class="product-head s-head" data-aos="fade-left">
+          <h3>Best selling products</h3>
+        </div>
+        <div class="product-body" data-aos="zoom-in">
+          <div class="product-swiper-container s-container s-containe">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="product">
+                  <div class="product-img">
+                    <a href="#">
+                      <img src="./images/products/1.jpg" alt=".." />
+                      <div class="note start">Discount 8%</div>
+                      <div class="note end">Original</div>
+                    </a>
+                  </div>
+                  <div class="product-disc">
+                    <h5><a href="#">GENUINE Radiator Original</a></h5>
+                    <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star blank"></i>
+                    </div>
+                    <div class="price flex-center">
+                      <div class="now"><span>115</span> <span>S.R</span></div>
+                      <div class="price-sale">
+                        <span>125</span><span>S.R</span>
+                      </div>
+                    </div>
+                    <div class="product-btns">
+                      <div class="like">
+                        <a href="#" class="flex-center">
+                          <span class="lnr lnr-cart"></span>
+                          <span class="txt">Add to cart</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product">
+                  <div class="product-img">
+                    <a href="#">
+                      <img src="./images/products/2.jpg" alt=".." />
+                      <div class="note end">Original</div>
+                    </a>
+                  </div>
+                  <div class="product-disc">
+                    <h5><a href="#">HI-Q Korean front brake pads kit</a></h5>
+                    <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star blank"></i>
+                    </div>
+                    <div class="price flex-center">
+                      <div class="now"><span>115</span> <span>S.R</span></div>
+                    </div>
+                    <div class="product-btns">
+                      <div class="like">
+                        <a href="#" class="flex-center">
+                          <span class="lnr lnr-cart"></span>
+                          <span class="txt">Add to cart</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product">
+                  <div class="product-img">
+                    <a href="#">
+                      <img src="./images/products/3.jpg" alt=".." />
+                      <div class="note start">Out of stock</div>
+                    </a>
+                  </div>
+                  <div class="product-disc">
+                    <h5><a href="#">VALEO Korean clutch kit</a></h5>
+                    <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star blank"></i>
+                    </div>
+                    <div class="price flex-center">
+                      <div class="now"><span>115</span> <span>S.R</span></div>
+                    </div>
+                    <div class="product-btns">
+                      <div class="like">
+                        <a href="#" class="flex-center">
+                          <span class="lnr lnr-cart"></span>
+                          <span class="txt">Add to cart</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product">
+                  <div class="product-img">
+                    <a href="#">
+                      <img src="./images/products/4.jpg" alt=".." />
+                      <div class="note end">commercial</div>
+                    </a>
+                  </div>
+                  <div class="product-disc">
+                    <h5><a href="#">KYB Japanese Back Auxiliary Set</a></h5>
+                    <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star blank"></i>
+                    </div>
+                    <div class="price flex-center">
+                      <div class="now"><span>115</span> <span>S.R</span></div>
+                    </div>
+                    <div class="product-btns">
+                      <div class="like">
+                        <a href="#" class="flex-center">
+                          <span class="lnr lnr-cart"></span>
+                          <span class="txt">Add to cart</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="banner-container banner2">
+      <div class="container">
+        <div class="banner-content flex-center">
+          <div class="banner">
+            <a href="#"><img src="./images/banners/1.jpg" alt=".." /></a>
+          </div>
+          <div class="banner">
+            <a href="#"><img src="./images/banners/2.jpg" alt=".." /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="news">
+      <div class="container">
+        <div class="news-head s-head" data-aos="fade-in">
+          <h3>Articles of interest </h3>
+        </div>
+        <div class="swiper-container-here s-containe">
+          <div class="news-content swiper-wrapper-here">
+            <div
+              class="news-item swiper-slide-here"
+              data-aos="fade-down"
+              data-aos-delay="0"
+            >
+              <div class="news-img">
+                <a href="#">
+                  <img src="./images/news/1.jpg" alt=".." />
+                  <div class="shadow flex-center">
+                    <span class="lnr lnr-eye"></span>
+                  </div>
+                </a>
+              </div>
+              <div class="news-body">
+                <h3>
+                  <a href="#">5 points to help you choose the spare parts for your car </a>
+                </h3>
+                <p>
+                 There are many types available for the texts of Lorem Ipsum, however
+                   The majority have been modified ...
+                </p>
+              </div>
+            </div>
+            <div
+              class="news-item swiper-slide-here"
+              data-aos="fade-down"
+              data-aos-delay="300"
+            >
+              <div class="news-img">
+                <a href="#">
+                  <img src="./images/news/2.jpg" alt=".." />
+                  <div class="shadow flex-center">
+                    <span class="lnr lnr-eye"></span>
+                  </div>
+                </a>
+              </div>
+              <div class="news-body">
+                <h3>
+                  <a href="#">5 points to help you choose the spare parts for your car </a>
+                </h3>
+                <p>
+                 There are many types available for the texts of Lorem Ipsum, however
+                   The majority have been modified ...
+                </p>
+              </div>
+            </div>
+            <div
+              class="news-item swiper-slide-here"
+              data-aos="fade-down"
+              data-aos-delay="600"
+            >
+              <div class="news-img">
+                <a href="#">
+                  <img src="./images/news/3.jpg" alt=".." />
+                  <div class="shadow flex-center">
+                    <span class="lnr lnr-eye"></span>
+                  </div>
+                </a>
+              </div>
+              <div class="news-body">
+                <h3>
+                  <a href="#">5 points to help you choose the spare parts for your car </a>
+                </h3>
+                <p>
+                 There are many types available for the texts of Lorem Ipsum, however
+                   The majority have been modified ...
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+
+        <a href="#" class="more">Show more</a>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer-top">
+          <div
+            class="info footer-list"
+            data-aos="fade-left"
+            data-aos-delay="0"
+            data-target="#collapse1"
+            aria-expanded="false"
+            aria-controls="collapse1"
+          >
+          <div class = "head">
+            <h4> Information <span class = "lnr lnr-chevron-down"> </span> </h4>
+          </div>
+          <ul id = "collapse1">
+            <li> <a href="#"> About us </a> </li>
+            <li> <a href="#"> Shipping and Delivery </a> </li>
+            <li> <a href="#"> Bank accounts </a> </li>
+            <li> <a href="#"> Privacy </a> </li>
+            <li> <a href="#"> Terms of Use </a> </li>
+          </ul>
+          </div>
+          <div
+            class="adds footer-list"
+            data-aos="fade-left"
+            data-aos-delay="300"
+            data-target="#collapse2"
+            aria-expanded="false"
+            aria-controls="collapse2"
+          >
+          <div class = "head">
+            <h4> Extensions <span class = "lnr lnr-chevron-down"> </span> </h4>
+          </div>
+          <ul id = "collapse2">
+            <li> <a href="#"> companies </a> </li>
+            <li> <a href="#"> Gift vouchers </a> </li>
+            <li> <a href="#"> commission system </a> </li>
+            <li> <a href="#"> Featured Shows </a> </li>
+            <li> <a href="#"> Blog </a> </li>
+          </ul>
+          </div>
+          <div
+            class="cust footer-list"
+            data-aos="fade-left"
+            data-aos-delay="600"
+            data-target="#collapse3"
+            aria-expanded="false"
+            aria-controls="collapse3"
+          >
+          <div class = "head">
+            <h4> Customer Service <span class = "lnr lnr-chevron-down"> </span> </h4>
+          </div>
+          <ul id = "collapse3">
+            <li> <a href="#"> Contact us </a> </li>
+            <li> <a href="#"> Return request </a> </li>
+            <li> <a href="#"> Site map </a> </li>
+          </ul>
+          </div>
+          <div
+            class="account footer-list"
+            data-aos="fade-right"
+            data-aos-delay="400"
+            data-target="#collapse4"
+            aria-expanded="false"
+            aria-controls="collapse4"
+          >
+           <div class = "head">
+               <h4> My Account <span class = "lnr lnr-chevron-down"> </span> </h4>
+             </div>
+             <ul id = "collapse4">
+               <li> <a href="#"> My account </a> </li>
+               <li> <a href="#"> My requests </a> </li>
+               <li> <a href="#"> my wish list </a> </li>
+               <li> <a href="#"> mailing list </a> </li>
+             </ul>
+          </div>
+          <div class="mail">
+            <div class = "head">
+              <h4> Newsletter </h4>
+            </div>
+            <p> Subscribe to the newsletter to receive new offers and products. </p>
+            <form action="#">
+              <div class="input-form">
+                <input type="text" placeholder="Enter your Email" />
+                <button class="search-btn flex-center">
+                  <span class="lnr lnr-arrow-right"></span>
+                </button>
+              </div>
+            </form>
+            <div class="social flex-center">
+              <div class="social-icon whats">
+                <a class="flex-center" href="#">
+                  <i class="fab fa-whatsapp"></i>
+                </a>
+              </div>
+              <div class="social-icon facebook">
+                <a class="flex-center" href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </div>
+              <div class="social-icon snap">
+                <a class="flex-center" href="#">
+                  <i class="fab fa-snapchat-ghost"></i>
+                </a>
+              </div>
+              <div class="social-icon insta">
+                <a class="flex-center" href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </div>
+              <div class="social-icon twitter">
+                <a class="flex-center" href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="payment" data-aos="zoom-in" data-aos-offset="0">
+          <img src="./images/icons/pay.png" alt=".." />
+        </div>
+        <div class="credit">
+          <p>Foundation piece of car 2021 &copy;</p>
+          <p>
+            Designed & Developed By
+            <a href="https://tasawk.com.sa/" target="_blank"
+              ><img src="./images/icons/footer-en.png" alt=".."
+            /></a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <div
+      id="up"
+      class="up flex-center"
+      onclick="window.scroll({top: 0,behavior: 'smooth'});"
+    >
+      <span class="lnr lnr-arrow-up"></span>
+    </div>
+
+    <script src="./js/vendor/jquery.min.js"></script>
+    <script src="./js/vendor/bootstrap.min.js"></script>
+    <script src="./js/vendor/bootstrap-select.min.js"></script>
+    <script src="./js/vendor/swiper-bundle.js"></script>
+    <script src="./js/vendor/aos.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
